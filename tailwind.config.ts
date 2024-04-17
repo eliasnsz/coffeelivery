@@ -19,6 +19,10 @@ const config: Config = {
 			boxShadow: {
 				primary: "0px 4px 0px black",
 			},
+			dropShadow: {
+				primary: "0px 4px 0px black",
+				secondary: "0px 4px 0px #0000002a",
+			},
 			fontFamily: {
 				title: "var(--font-title)",
 				body: "var(--font-body)",

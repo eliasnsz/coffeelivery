@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .font-outline-1 {
+    -webkit-text-stroke: 2px black;
+  }
+}
+
+@layer components {
+  .border-2 {
+    @apply border-black;
+  }
+}
+
+*::selection {
+  background: #3f3f3f;
+  color: #f3f3f3;
+}
+
 body {
   background-color: #F3F3F3;
 }
